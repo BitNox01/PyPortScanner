@@ -25,7 +25,7 @@ PyPortScanner is a command-line tool that allows you to scan open ports on a sin
    git clone https://github.com/BitNox01/PyPortScanner.git
    cd PyPortScanner
 2. Run the scanner script:
-     python main.py
+   python main.py
 
 3. Follow the on-screen prompts to:
    -Choose whether to scan a network range or localhost
@@ -33,21 +33,29 @@ PyPortScanner is a command-line tool that allows you to scan open ports on a sin
    -Enter the port range to scan
 
 ## Example
- Choose an option:
- [1] Scan a network range
- [2] Scan localhost
- Enter 1 or 2: 2
- Local IP detected: 192.168.1.10
- Enter start port (1-65535): 1
- Enter end port (>= start port): 1024
- Scanning localhost 192.168.1.10...
- [+] Port 22 is open on 192.168.1.10
- ...
+
+Choose an option:
+
+[1] Scan a network range
+
+[2] Scan localhost
+
+Enter 1 or 2: 2
+
+Local IP detected: 192.168.1.10
+
+Enter start port (1-65535): 1
+
+Enter end port (>= start port): 1024
+
+Scanning localhost 192.168.1.10..
+.
+[+] Port 22 is open on 192.168.1.10
+
+...
 
 ## License
- This project is licensed under the MIT License.
+
+This project is licensed under the MIT License.
 
 # Created by BitNox
-
-
-
